@@ -1,0 +1,5 @@
+/Users/jerahmeelm/Downloads/Bubble/obj/Debug/net8.0/Bubble.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jerahmeelm/Downloads/Bubble/obj/Debug/net8.0/Bubble.AssemblyInfoInputs.cache
+/Users/jerahmeelm/Downloads/Bubble/obj/Debug/net8.0/Bubble.AssemblyInfo.cs
+/Users/jerahmeelm/Downloads/Bubble/obj/Debug/net8.0/Bubble.csproj.CoreCompileInputs.cache
+/Users/jerahmeelm/Downloads/Bubble/obj/Debug/net8.0/Bubble.sourcelink.json

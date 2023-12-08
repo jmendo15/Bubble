@@ -1,31 +1,22 @@
 using System;
-using System.Windows.Forms;
+using System.Threading;
 
-namespace SimpleGameEngine
+class Program
 {
-    static class Program
+    static void Main()
     {
-        [STAThread]
-        static void Main()
+        Console.CursorVisible = false;
+
+        GameObject player = new GameObject { X = 10, Y = 10, Symbol = "P" };
+
+        while (true)
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
+            // Update game logic
 
-            MainForm mainForm = new MainForm();
-            mainForm.KeyDown += MainForm_KeyDown;
-            mainForm.KeyUp += MainForm_KeyUp;
+            // Render
+            player.Draw();
 
-            Application.Run(mainForm);
-        }
-
-        private static void MainForm_KeyDown(object sender, KeyEventArgs e)
-        {
-            Keyboard.KeyDown(e.KeyCode);
-        }
-
-        private static void MainForm_KeyUp(object sender, KeyEventArgs e)
-        {
-            Keyboard.KeyUp(e.KeyCode);
+            Thread.Sleep(16); // Simulate 60 FPS
         }
     }
 }
