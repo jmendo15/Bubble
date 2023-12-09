@@ -26,6 +26,7 @@ namespace MonoGameExample
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             Texture2D playerTexture = Content.Load<Texture2D>("Player");
 
+
             // Load content here (e.g., textures)
 
         }
