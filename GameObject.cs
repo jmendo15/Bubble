@@ -1,4 +1,6 @@
-class GameObject
+using System.Diagnostics;
+
+public class GameObject
 {
     public int X { get; set; }
     public int Y { get; set; }
@@ -6,7 +8,6 @@ class GameObject
 
     public void Draw()
     {
-        Console.SetCursorPosition(X, Y);
-        Console.Write(Symbol);
+        Debug.WriteLine($"Drawing {Symbol} at ({X}, {Y})");
     }
 }

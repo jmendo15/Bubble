@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "vAbGv9YQla/BinNpNRc2kNk7uXr1NaYrZGUUxWD5Kpc9bAzlX5+9ERkJ62KWx2SCMQUXYpS2zDIvGPJpf4SLfQ==",
+  "success": true,
+  "projectFilePath": "/Users/jerahmeelm/Downloads/Bubble/MonoGameExample/MonoGameExample.csproj",
+  "expectedPackageFiles": [
+    "/Users/jerahmeelm/.nuget/packages/monogame.content.builder.task/3.8.1.303/monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "/Users/jerahmeelm/.nuget/packages/monogame.framework.desktopgl/3.8.1.303/monogame.framework.desktopgl.3.8.1.303.nupkg.sha512",
+    "/Users/jerahmeelm/.nuget/packages/microsoft.netcore.app.ref/6.0.25/microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "/Users/jerahmeelm/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.25/microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "/Users/jerahmeelm/.nuget/packages/microsoft.netcore.app.host.osx-x64/6.0.25/microsoft.netcore.app.host.osx-x64.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}
